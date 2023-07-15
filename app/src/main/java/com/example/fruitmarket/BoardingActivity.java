@@ -1,5 +1,6 @@
 package com.example.fruitmarket;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.TextView;
@@ -9,6 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager2.widget.ViewPager2;
 
 import com.example.fruitmarket.adapter.BoardingAdapter;
+import com.example.fruitmarket.ui.activities.MobileNumberActivity;
 import com.example.fruitmarket.ui.fragments.boarding.DeliveryArrivedFragment;
 import com.example.fruitmarket.ui.fragments.boarding.DeliveryFragment;
 import com.example.fruitmarket.ui.fragments.boarding.EShoppingFragment;
@@ -27,7 +29,7 @@ public class BoardingActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_boarding);
 
-        pagerBoarding = findViewById(R.id.pager_barding);
+        pagerBoarding = findViewById(R.id.pager_boarding);
         dotsIndicator = findViewById(R.id.dots_indicator);
         btnNext = findViewById(R.id.btn_next);
         tvSkip = findViewById(R.id.tv_skip);
@@ -39,6 +41,10 @@ public class BoardingActivity extends AppCompatActivity {
 
         pagerBoarding.setAdapter(boardingAdapter);
         dotsIndicator.attachTo(pagerBoarding);
+
+        btnNext.setOnClickListener(view -> {
+            startActivity(new Intent(this, MobileNumberActivity.class));
+        });
 
     }
 }

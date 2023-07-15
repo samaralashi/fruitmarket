@@ -7,7 +7,7 @@
     tools:context=".ui.activities.VerifyActivity">
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btn_verify"
         android:layout_width="@dimen/_280sdp"
         android:layout_height="wrap_content"
         android:background="@drawable/btn_bg"
@@ -21,7 +21,7 @@
         android:id="@+id/editTextPhone2"
         android:layout_width="@dimen/_40sdp"
         android:layout_height="@dimen/_40sdp"
-        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginStart="@dimen/_18sdp"
         android:layout_marginTop="@dimen/_80sdp"
         android:ems="10"
         android:text="+91"
@@ -35,11 +35,13 @@
         android:id="@+id/editTextPhone3"
         android:layout_width="@dimen/_280sdp"
         android:layout_height="@dimen/_40sdp"
-        android:layout_marginStart="@dimen/_20sdp"
         android:layout_marginTop="@dimen/_80sdp"
         android:background="@drawable/edittext_background"
         android:ems="10"
+        android:paddingLeft="@dimen/_50sdp"
+        android:text="026464836"
         android:inputType="phone"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

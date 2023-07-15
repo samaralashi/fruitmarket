@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="@dimen/_8sdp">
+
+    <RelativeLayout
+        android:id="@+id/rel_image"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_120sdp"
+        android:background="@drawable/image_bg">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/iv_fruits"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/image1"
+            app:riv_corner_radius="@dimen/_8sdp"/>
+
+
+    </RelativeLayout>
+
+    <RatingBar
+        android:id="@+id/rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?android:attr/ratingBarStyleSmall"
+        android:numStars="5"
+        android:progress="2"
+        android:stepSize="0.1"
+        android:isIndicator="true"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_below="@id/rel_image"/>
+
+    <TextView
+        android:id="@+id/tv_product_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_semi_bold"
+        android:text="Strawberry"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/_12sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_below="@id/rating"/>
+
+    <TextView
+        android:id="@+id/tv_product_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_regular"
+        android:text="$ 300 Per/ kg"
+        android:textColor="@color/colorSubText1"
+        android:textSize="@dimen/_12sdp"
+        android:layout_below="@id/tv_product_name"/>
+
+
+</RelativeLayout>

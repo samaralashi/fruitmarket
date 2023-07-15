@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.activities.VerifyMoblieNumberActivity">
+    tools:context=".ui.activities.VerifyMobileNumberActivity">
 
     <TextView
         android:id="@+id/textView11"
@@ -29,7 +29,6 @@
         android:cursorVisible="true"
         android:hint="Hint."
         android:inputType="text"
-        android:itemBackground="@mipmap/ic_launcher"
         android:textSize="18sp"
         android:textStyle="bold"
         app:cursorWidth="2dp"
@@ -37,7 +36,7 @@
         app:itemCount="4"
         app:itemHeight="@dimen/_38sdp"
         app:itemRadius="@dimen/_19sdp"
-        app:itemSpacing="@dimen/_4sdp"
+        app:itemSpacing="@dimen/_2sdp"
         app:itemWidth="@dimen/_38sdp"
         app:layout_constraintBottom_toTopOf="@+id/button3"
         app:layout_constraintEnd_toEndOf="parent"
@@ -47,7 +46,7 @@
         app:viewType="rectangle" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btn_verify_phone"
         android:layout_marginBottom="@dimen/_350sdp"
         android:text="VERIFY"
         android:layout_width="@dimen/_280sdp"

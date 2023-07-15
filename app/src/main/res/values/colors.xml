@@ -11,6 +11,10 @@
 
 
     <color name="colorSubText">#898989</color>
+    <color name="colorSubText1">#393939</color>
     <color name="colorDot">#C1B6B6</color>
     <color name="textEditText">#393939</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorOrange">#CC7D00</color>
 </resources>

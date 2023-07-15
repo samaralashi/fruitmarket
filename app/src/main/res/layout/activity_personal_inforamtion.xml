@@ -63,7 +63,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView14" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/btn_verify_information"
         android:layout_width="@dimen/_280sdp"
         android:layout_height="wrap_content"
         android:background="@drawable/btn_bg"
