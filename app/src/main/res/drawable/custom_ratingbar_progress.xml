@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background"
+        android:color="#CCCCCC" /> <!-- Replace ic_star_empty with your empty star drawable -->
+
+    <item android:id="@android:id/secondaryProgress"
+        android:color="#03A9F4" /> <!-- Replace ic_star_empty with your filled star drawable -->
+
+    <item android:id="@android:id/progress"
+        android:color="#FFD700" /> <!-- Replace ic_star_filled with your filled star drawable -->
+</layer-list>
+

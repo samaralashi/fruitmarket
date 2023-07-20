@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activities.DetailsActivity">
+
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/iv_fruits"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_180sdp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/image1"
+        android:padding="@dimen/_15sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:riv_corner_radius="@dimen/_8sdp" />
+
+    <TextView
+        android:id="@+id/fruit_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_12sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:fontFamily="@font/poppins_semi_bold"
+        android:text="Grapes"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_16ssp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_fruits" />
+
+    <TextView
+        android:id="@+id/fruit_details"
+        android:layout_width="@dimen/_280sdp"
+        android:layout_height="89dp"
+        android:fontFamily="@font/poppins_regular"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginStart="@dimen/_12sdp"
+        android:text="Grapes will provide natural nutrients. The Chemical in organic grapes which can be healthier hair and skin. It can be improve Your heart health. Protect your body from Cancer."
+        android:textColor="#626262"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.38"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fruit_name" />
+
+    <TextView
+        android:id="@+id/tv_nutrition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_12sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:fontFamily="@font/poppins_semi_bold"
+        android:text="Nutrition"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_16ssp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fruit_details" />
+
+    <TextView
+        android:id="@+id/fruit_nutrition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginStart="@dimen/_12sdp"
+        android:text="kls"
+        android:textColor="#393939"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_nutrition" />
+
+    <TextView
+        android:id="@+id/fruit_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_12sdp"
+        android:layout_marginBottom="68dp"
+        android:fontFamily="@font/poppins_semi_bold"
+        android:text="160 Per/ kg"
+        android:textSize="@dimen/_12ssp"
+        android:textColor="#393939"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="@dimen/_130sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="56dp"
+        android:text="Buy now"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.747"
+        app:layout_constraintStart_toEndOf="@+id/fruit_price" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

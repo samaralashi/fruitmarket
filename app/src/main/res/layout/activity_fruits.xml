@@ -178,7 +178,173 @@
                 android:layout_below="@id/ll_title"
                 app:layout_constraintTop_toBottomOf="@+id/constraint_toolbar" />
 
+
+            //////////////////////////////////////////
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/ll_title2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ll_sections">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:layout_marginStart="@dimen/_10sdp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_semi_bold"
+                        android:text="Mixed Fruit Pack"
+                        android:textSize="@dimen/_14ssp"
+                        android:textColor="@color/colorBlack"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_semi_bold"
+                        android:text="(20% Off)"
+                        android:textSize="@dimen/_12ssp"
+                        android:textColor="@color/colorPrimary"
+                        android:layout_marginStart="@dimen/_10sdp"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="Pick up from organic farms"
+                    android:textSize="@dimen/_12ssp"
+                    android:textColor="@color/colorBlack"
+                    android:layout_marginStart="@dimen/_10sdp"/>
+
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_fruits2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_below="@id/ll_title"
+                app:layout_constraintTop_toBottomOf="@+id/constraint_toolbar" />
+
+//////////////////////////////
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/ll_title3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ll_sections">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:layout_marginStart="@dimen/_10sdp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_semi_bold"
+                        android:text="Stone Fruits"
+                        android:textSize="@dimen/_14ssp"
+                        android:textColor="@color/colorBlack"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_semi_bold"
+                        android:text="(20% Off)"
+                        android:textSize="@dimen/_12ssp"
+                        android:textColor="@color/colorPrimary"
+                        android:layout_marginStart="@dimen/_10sdp"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="Pick up from organic farms"
+                    android:textSize="@dimen/_12ssp"
+                    android:textColor="@color/colorBlack"
+                    android:layout_marginStart="@dimen/_10sdp"/>
+
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_fruits3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_below="@id/ll_title"
+                app:layout_constraintTop_toBottomOf="@+id/constraint_toolbar" />
+
+/////////////////////////////
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/ll_title4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ll_sections">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:layout_marginStart="@dimen/_10sdp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_semi_bold"
+                        android:text="Melons"
+                        android:textSize="@dimen/_14ssp"
+                        android:textColor="@color/colorBlack"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_semi_bold"
+                        android:text="(20% Off)"
+                        android:textSize="@dimen/_12ssp"
+                        android:textColor="@color/colorPrimary"
+                        android:layout_marginStart="@dimen/_10sdp"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="Pick up from organic farms"
+                    android:textSize="@dimen/_12ssp"
+                    android:textColor="@color/colorBlack"
+                    android:layout_marginStart="@dimen/_10sdp"/>
+
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_fruits4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_below="@id/ll_title"
+                app:layout_constraintTop_toBottomOf="@+id/constraint_toolbar" />
+
+
+
         </LinearLayout>
+
+
 
     </androidx.core.widget.NestedScrollView>
 

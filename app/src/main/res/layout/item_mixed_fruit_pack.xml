@@ -20,6 +20,7 @@
             app:riv_corner_radius="@dimen/_8sdp"/>
 
 
+
     </RelativeLayout>
 
     <RatingBar
